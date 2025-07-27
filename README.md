@@ -12,3 +12,17 @@ npm install
 ```
 
 frontend/src/App.jsxを書き換える
+
+# 直接コードを起動
+
+## backend
+
+```
+python .\backend\app.py
+```
+
+## frontend
+```
+cd frontend
+npm run dev
+```

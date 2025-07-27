@@ -4,7 +4,7 @@ function App() {
   const [fortune, setFortune] = useState('');
 
   const fetchFortune = async () => {
-    const response = await fetch('http://localhost:5000/api/fortune');
+    const response = await fetch('/api/fortune');
     const data = await response.json();
     setFortune(data.fortune);
   };
