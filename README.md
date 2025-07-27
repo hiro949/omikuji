@@ -15,11 +15,20 @@ frontend/src/App.jsxを書き換える
 
 ## テストコードを追加
 ```
-npm install --save-dev jest @testing-library/react @testing-library/jest-dom babel-jest
+npm install --save-dev jest @testing-library/react @testing-library/jest-dom babel-jest jest-environment-jsdom @babel/preset-env @babel/preset-react
 npm audit fix
-npm install --save-dev jest-environment-jsdom
-npm install --save-dev @babel/preset-env @babel/preset-react
-npm install --save-dev @testing-library/jest-dom
+```
+
+# テストコード実行
+## backend
+```
+cd <root directory>
+python -m pytest .\backend\test_app.py
+```
+## frontend
+```
+cd frontend
+npm test
 ```
 
 # 直接コードを起動
