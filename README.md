@@ -23,7 +23,7 @@ npm audit fix
 ## backend
 ```
 cd <root directory>
-python -m pytest .\backend\test_app.py
+python -m pytest
 ```
 ## frontend
 ```
