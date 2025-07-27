@@ -49,3 +49,13 @@ npm run dev
 ```
 docker-compose up -d --build
 ```
+# ローカルでgithub actionで起動
+
+```
+act -P ubuntu-latest=catthehacker/ubuntu:act-latest
+```
+
+特定のjobだけ実行したいなら
+```
+act -j test-backend -P ubuntu-latest=catthehacker/ubuntu:act-22.04
+```
