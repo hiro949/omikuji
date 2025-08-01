@@ -49,6 +49,10 @@ npm run dev
 ```
 docker-compose up -d --build
 ```
+
+http://localhost:5173/
+でUIに飛べます。
+
 # ローカルでgithub actionで起動
 
 ```
