@@ -4,7 +4,7 @@ import App from '../src/App.jsx';
 
 test('renders title and button', () => {
   render(<App />);
-  expect(screen.getByText(/ツンデレ占い React版/i)).toBeInTheDocument();
+  expect(screen.getByText(/おみくじ React版/i)).toBeInTheDocument();
   expect(screen.getByText(/占ってみる？/i)).toBeInTheDocument();
 });
 

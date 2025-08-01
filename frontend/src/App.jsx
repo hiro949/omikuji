@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div style={styles.container}>
-      <h1>ツンデレ占い React版</h1>
+      <h1>おみくじ React版</h1>
       <button onClick={fetchFortune} style={styles.button}>
         占ってみる？…別にアンタのためじゃないけど！
       </button>
